@@ -34,7 +34,7 @@ var time = 3000;
 
 images[0] = "img/aerial-shot-aerial-view-beach-587015.jpg";
 images[1] = "img/P1016132.JPG";
-images[2] = "img/stefan-stefancik-545709-unsplash.jpg";
+images[2] = "img/pexels-photo-307008.jpeg";
 images[3] = "img/P1010057.JPG";
 images[4] = "img/pexels-photo-248797.jpeg";
 images[5] = "img/pexels-photo-338515.jpeg";
@@ -219,7 +219,7 @@ $('#add').click(function(){window.location = '#review'});
     function scrollToTop(){
         if (scrolled > 0) {
             window.scrollTo(0, scrolled);
-            scrolled = scrolled - 50;
+            scrolled = scrolled - 100;
             timer = setTimeout(scrollToTop, 200);
         }
         else {
